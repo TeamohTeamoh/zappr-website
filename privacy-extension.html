@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Zappr QR Scanner Extension</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .privacy-wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+    .privacy-wrap h1 {
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .privacy-wrap .effective {
+      color: var(--gray);
+      font-size: 0.85rem;
+      margin-bottom: 48px;
+    }
+    .privacy-wrap h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+    .privacy-wrap p {
+      color: var(--gray);
+      font-size: 0.95rem;
+      line-height: 1.75;
+      margin-bottom: 16px;
+    }
+    .privacy-wrap ul {
+      list-style: disc;
+      padding-left: 24px;
+      margin-bottom: 16px;
+    }
+    .privacy-wrap ul li {
+      color: var(--gray);
+      font-size: 0.95rem;
+      line-height: 1.75;
+      margin-bottom: 6px;
+    }
+    .privacy-wrap a {
+      color: var(--teal);
+      text-decoration: none;
+    }
+    .privacy-wrap a:hover { text-decoration: underline; }
+    .privacy-wrap hr {
+      border: none;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      margin: 48px 0 0;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--gray);
+      text-decoration: none;
+      font-size: 0.9rem;
+      margin-bottom: 40px;
+      transition: color 0.2s;
+    }
+    .back-link:hover { color: var(--teal); }
+    .back-link svg { width: 16px; height: 16px; }
+  </style>
+</head>
+
+<body>
+
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- Inline SVG symbols (reused for nav/footer) -->
+  <svg width="0" height="0" style="display:none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="zappr-icon" viewBox="0 0 702 576" fill="none">
+      <g transform="matrix(1,0,0,1,-120.145,-193.192)">
+        <path d="M513.928,531.515C528.583,533.61 540.056,527.445 549.282,516.68L813.386,224.044C817.862,218.894 820.621,214.128 821.22,209.934C822.366,201.916 814.93,195.818 801.698,193.927C794.778,192.938 786.256,192.979 776.576,193.861L194.096,355.767C194.096,355.767 176.395,360.88 175.108,369.885C173.486,381.233 188.753,384.298 188.753,384.298L426.838,403.213C426.838,403.213 439.327,405.303 448.786,401.62L790.767,206.462C793.626,205.36 796.642,206.043 798.52,207.444C800.38,208.969 800.318,210.848 797.646,212.102L469.795,418.846C461.133,422.769 459.923,426.877 462.609,435.693L485.666,505.448C489.991,518.779 494.997,528.809 513.928,531.515Z" fill="currentColor" fill-opacity="0.85"/>
+      </g>
+      <g transform="matrix(1,0,0,1,-120.145,-193.192)">
+        <path d="M428.408,431.274C413.758,429.141 402.269,435.275 393.015,446.015L128.137,737.951C123.648,743.09 120.876,747.848 120.265,752.041C119.098,760.055 126.518,766.173 139.745,768.099C146.662,769.106 155.184,769.088 164.867,768.232L747.773,607.867C747.773,607.867 765.488,602.802 766.799,593.801C768.451,582.456 753.192,579.352 753.192,579.352L515.158,559.806C515.158,559.806 502.674,557.683 493.206,561.34L150.709,755.593C147.847,756.687 144.833,755.996 142.959,754.59C141.103,753.061 141.17,751.182 143.845,749.934L472.243,544.059C480.914,540.159 482.135,536.055 479.472,527.232L456.6,457.416C452.311,444.074 447.331,434.03 428.408,431.274Z" fill="currentColor" fill-opacity="0.85"/>
+      </g>
+    </symbol>
+    <symbol id="zappr-name" viewBox="0 0 1295 348" fill="none">
+      <path d="M256.141 16.1562C258.094 20.7135 258.68 25.5312 257.898 30.6094C257.117 35.5573 255.034 39.7891 251.648 43.3047L84.0703 230.219H255.75V281H26.8438C21.8958 281 17.2734 279.633 12.9766 276.898C8.8099 274.034 5.6849 270.323 3.60156 265.766C1.38802 261.208 0.671875 256.456 1.45312 251.508C2.36458 246.56 4.44792 242.263 7.70312 238.617L175.672 51.7031H3.60156V0.921875H232.898C237.846 0.921875 242.404 2.35417 246.57 5.21875C250.867 7.95312 254.057 11.599 256.141 16.1562ZM514.344 211.078C514.344 218.109 513.107 225.727 510.633 233.93C508.159 242.003 504.122 249.555 498.523 256.586C493.055 263.487 485.828 269.281 476.844 273.969C467.99 278.656 457.182 281 444.422 281H352.82C345.789 281 338.172 279.763 329.969 277.289C321.896 274.815 314.344 270.844 307.312 265.375C300.411 259.776 294.617 252.549 289.93 243.695C285.242 234.711 282.898 223.839 282.898 211.078C282.898 204.047 284.135 196.43 286.609 188.227C289.083 180.023 293.055 172.471 298.523 165.57C304.122 158.539 311.349 152.68 320.203 147.992C329.188 143.305 340.06 140.961 352.82 140.961H444.422V189.398H352.82C345.919 189.398 340.581 191.547 336.805 195.844C333.029 200.01 331.141 205.219 331.141 211.469C331.141 218.109 333.289 223.318 337.586 227.094C342.013 230.74 347.221 232.562 353.211 232.562H444.422C451.323 232.562 456.661 230.479 460.438 226.312C464.214 222.146 466.102 216.938 466.102 210.688V139.789C466.102 133.148 464.018 127.875 459.852 123.969C455.815 120.062 450.672 118.109 444.422 118.109H332.898V69.8672H444.422C451.453 69.8672 459.005 71.1042 467.078 73.5781C475.281 76.0521 482.833 80.0885 489.734 85.6875C496.766 91.1562 502.625 98.3828 507.312 107.367C512 116.221 514.344 127.029 514.344 139.789V211.078ZM790.516 209.711C790.516 218.435 789.409 226.312 787.195 233.344C784.982 240.245 782.052 246.365 778.406 251.703C774.76 256.911 770.529 261.404 765.711 265.18C760.893 268.826 755.815 271.82 750.477 274.164C745.268 276.508 739.995 278.266 734.656 279.438C729.318 280.479 724.24 281 719.422 281H627.82V230.219H719.422C726.193 230.219 731.271 228.461 734.656 224.945C738.042 221.43 739.734 216.352 739.734 209.711V141.352C739.734 134.32 737.977 129.112 734.461 125.727C731.076 122.341 726.062 120.648 719.422 120.648H628.211C621.31 120.648 616.102 122.406 612.586 125.922C609.07 129.307 607.312 134.32 607.312 140.961V347.016H556.531V140.961C556.531 132.237 557.638 124.424 559.852 117.523C562.065 110.622 564.995 104.568 568.641 99.3594C572.417 94.0208 576.714 89.5286 581.531 85.8828C586.349 82.1068 591.362 79.0469 596.57 76.7031C601.909 74.3594 607.247 72.6667 612.586 71.625C618.055 70.4531 623.133 69.8672 627.82 69.8672H719.422C728.146 69.8672 735.958 70.974 742.859 73.1875C749.76 75.401 755.815 78.3307 761.023 81.9766C766.362 85.6224 770.854 89.8542 774.5 94.6719C778.276 99.4896 781.336 104.568 783.68 109.906C786.023 115.115 787.716 120.388 788.758 125.727C789.93 131.065 790.516 136.143 790.516 140.961V209.711ZM1066.69 209.711C1066.69 218.435 1065.58 226.312 1063.37 233.344C1061.15 240.245 1058.22 246.365 1054.58 251.703C1050.93 256.911 1046.7 261.404 1041.88 265.18C1037.07 268.826 1031.99 271.82 1026.65 274.164C1021.44 276.508 1016.17 278.266 1010.83 279.438C1005.49 280.479 1000.41 281 995.594 281H903.992V230.219H995.594C1002.36 230.219 1007.44 228.461 1010.83 224.945C1014.21 221.43 1015.91 216.352 1015.91 209.711V141.352C1015.91 134.32 1014.15 129.112 1010.63 125.727C1007.25 122.341 1002.23 120.648 995.594 120.648H904.383C897.482 120.648 892.273 122.406 888.758 125.922C885.242 129.307 883.484 134.32 883.484 140.961V347.016H832.703V140.961C832.703 132.237 833.81 124.424 836.023 117.523C838.237 110.622 841.167 104.568 844.812 99.3594C848.589 94.0208 852.885 89.5286 857.703 85.8828C862.521 82.1068 867.534 79.0469 872.742 76.7031C878.081 74.3594 883.419 72.6667 888.758 71.625C894.227 70.4531 899.305 69.8672 903.992 69.8672H995.594C1004.32 69.8672 1012.13 70.974 1019.03 73.1875C1025.93 75.401 1031.99 78.3307 1037.2 81.9766C1042.53 85.6224 1047.03 89.8542 1050.67 94.6719C1054.45 99.4896 1057.51 104.568 1059.85 109.906C1062.2 115.115 1063.89 120.388 1064.93 125.727C1066.1 131.065 1066.69 136.143 1066.69 140.961V209.711ZM1294.81 120.648H1180.55C1173.65 120.648 1168.45 122.406 1164.93 125.922C1161.41 129.307 1159.66 134.32 1159.66 140.961V281H1108.88V140.961C1108.88 132.237 1109.98 124.424 1112.2 117.523C1114.41 110.622 1117.34 104.568 1120.98 99.3594C1124.76 94.0208 1129.06 89.5286 1133.88 85.8828C1138.69 82.1068 1143.71 79.0469 1148.91 76.7031C1154.25 74.3594 1159.59 72.6667 1164.93 71.625C1170.4 70.4531 1175.48 69.8672 1180.16 69.8672H1294.81V120.648Z" fill="currentColor"/>
+    </symbol>
+  </svg>
+
+  <!-- NAV -->
+  <nav>
+    <div class="container inner">
+      <a href="index.html" class="nav-logo">
+        <svg class="icon" viewBox="0 0 702 576" width="37" height="30" aria-label="Zappr icon"><use href="#zappr-icon"/></svg>
+        <svg class="name" viewBox="0 0 1295 348" width="82" height="22" aria-label="Zappr"><use href="#zappr-name"/></svg>
+      </a>
+      <div class="nav-links">
+        <a href="index.html#features" class="nav-link">Features</a>
+        <a href="index.html#how"      class="nav-link">How it works</a>
+        <a href="index.html#pricing"  class="nav-link">Pricing</a>
+        <a href="index.html#contact"  class="nav-link">Contact</a>
+        <a href="index.html#pricing"  class="btn btn-primary nav-cta">Get Zappr</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTENT -->
+  <div class="privacy-wrap" style="position:relative;z-index:1;">
+
+    <a href="index.html" class="back-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M19 12H5M12 5l-7 7 7 7"/>
+      </svg>
+      Back to Zappr
+    </a>
+
+    <h1><span class="gradient-text">Privacy Policy</span></h1>
+    <p style="color:var(--gray);font-size:1rem;margin-bottom:4px;">Zappr QR Scanner Extension</p>
+    <p class="effective">Effective as of 2026-03-04</p>
+
+    <p>This extension does not collect, store, transmit, or share any personal data or browsing information.</p>
+
+    <h2>Camera Usage</h2>
+    <p>The extension only uses the device camera to scan a QR code displayed by the Zappr iOS app. The scanned QR code contains a local address which is then opened in a new browser tab to allow communication with the Zappr app on the same local network.</p>
+
+    <h2>Data Collection</h2>
+    <ul>
+      <li>No images from the camera are stored or transmitted.</li>
+      <li>No user information, browsing data, or usage statistics are collected.</li>
+    </ul>
+
+    <h2>Local Processing</h2>
+    <p>All processing happens locally on the user's device.</p>
+
+    <h2>Contact Us</h2>
+    <p>If you have any questions regarding this privacy policy, please contact: <a href="mailto:info@thaigersoft.com">info@thaigersoft.com</a></p>
+
+    <hr />
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="foot-logo">
+        <svg class="icon" viewBox="0 0 702 576" width="27" height="22" aria-label="Zappr icon"><use href="#zappr-icon"/></svg>
+        <svg class="name" viewBox="0 0 1295 348" width="52" height="14" aria-label="Zappr"><use href="#zappr-name"/></svg>
+      </div>
+      <p>
+        &copy; 2025 Zappr &nbsp;·&nbsp;
+        <a href="mailto:thaigersoft@gmail.com">thaigersoft@gmail.com</a>
+        &nbsp;·&nbsp;
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
