@@ -391,6 +391,55 @@ section .section-sub {
 }
 .pricing-card .btn { width: 100%; justify-content: center; }
 
+/* ─── EXTENSIONS ────────────────────────────────── */
+#extensions {
+  text-align: center;
+}
+.ext-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+.ext-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--light-dark);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius-sm);
+  padding: 14px 24px;
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: border-color 0.2s, transform 0.15s;
+}
+.ext-btn:hover {
+  border-color: rgba(51,177,188,0.5);
+  transform: translateY(-2px);
+  background: rgba(41,39,52,0.9);
+}
+.ext-btn .ext-icons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.ext-btn img {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+.ext-note {
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+.ext-note a {
+  color: var(--teal);
+  text-decoration: none;
+}
+.ext-note a:hover { text-decoration: underline; }
+
 /* ─── CONTACT ────────────────────────────────────── */
 #contact {
   text-align: center;
